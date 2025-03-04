@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 12f;
+    public float speed = 12f; // Walking speed
+    public float sprintSpeed = 18f; // Running speed
     public float gravity = -9.81f;
 
     public Transform groundCheck;
@@ -15,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+
+    public KeyCode sprintKey = KeyCode.LeftShift;
 
     // Update is called once per frame
     void Update()
@@ -32,7 +35,14 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        controller.Move(move * speed * Time.deltaTime);
+        if(Input.GetKey(sprintKey))
+        {
+            controller.Move(move * sprintSpeed * Time.deltaTime);
+        }
+        else
+        {
+            controller.Move(move * speed * Time.deltaTime);
+        }
 
         velocity.y += gravity * Time.deltaTime;
 
