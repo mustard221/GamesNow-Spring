@@ -48,15 +48,18 @@ public class FieldOfView : MonoBehaviour
                 if(!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
                 {
                     canSeeEnemy = true;
+                    print(canSeeEnemy);
                 }
                 else
                 {
                     canSeeEnemy = false;
+                    print(canSeeEnemy);
                 }
             }
             else
             {
                 canSeeEnemy = false;
+                print(canSeeEnemy);
             }
 
         }
@@ -65,6 +68,7 @@ public class FieldOfView : MonoBehaviour
             if (canSeeEnemy)
             {
                 canSeeEnemy = false;
+                print(canSeeEnemy);
             }
         }
     }

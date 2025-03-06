@@ -5,32 +5,43 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public int maxSanity = 100;
+    public int maxSanity = 10000;
     public int currentSanity;
-    
 
+    public FieldOfView fieldOfView;
     public SanityBar sanityBar;
+
+    public bool seenEnemy = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
         currentSanity = 0;
         sanityBar.SetMaxSanity(maxSanity);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        fieldOfView = FindAnyObjectByType<FieldOfView>();
+        Debug.Log(fieldOfView.canSeeEnemy);
+        seenEnemy = fieldOfView.canSeeEnemy;
+
+        if (seenEnemy == true)
         {
-            TakeSanity(20);
+            currentSanity += 1;
+            sanityBar.SetSanity(currentSanity);
         }
     }
 
-    void TakeSanity(int damage)
-    {
-        currentSanity += damage;
+    //void TakeSanity(int damage)
+   // {
+       // currentSanity += damage;
+        
 
-        sanityBar.SetSanity(currentSanity);
-    }
+        //sanityBar.SetSanity(currentSanity);
+    //}
 }
