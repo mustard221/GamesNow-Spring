@@ -1,0 +1,24 @@
+# Ignore Unity generated files
+[Dd]/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Pp]rojectSettings/
+
+# User-specific files
+*.user
+*.userprefs
+*.suo
+*.tmp
+*.swp
+*.log
+
+# Build directories
+Build/
+Builds/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
