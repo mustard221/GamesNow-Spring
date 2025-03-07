@@ -35,6 +35,11 @@ public class Player : MonoBehaviour
             currentSanity += 1;
             sanityBar.SetSanity(currentSanity);
         }
+
+        if (currentSanity > 10000)
+        {
+
+        }
     }
 
     //void TakeSanity(int damage)

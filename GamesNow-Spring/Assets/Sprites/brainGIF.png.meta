@@ -1,0 +1,1205 @@
+fileFormatVersion: 2
+guid: 9a1f46fe0b1190b47a7b045f408f4439
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brainGIF_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4718
+        width: 736
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56886d30d794b0b42b7cdc6f4f294dc6
+      internalID: -400848654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_1
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 4718
+        width: 738
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b4d4be5df90b14c97647afb5263664
+      internalID: 439318720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_2
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 4718
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a06f64a6ab281a429e9e008ea84f439
+      internalID: -473383224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_3
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 4718
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d073f22588ee8468eda1bdf69c7990
+      internalID: 1103921667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_4
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 4718
+        width: 738
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaf43531c0f2014f9e31c07293d590b
+      internalID: -418673447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_5
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 4718
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d5a97dff3ad5a498a7426b46dc4eed
+      internalID: -1216485667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4126
+        width: 736
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0929d2e32fa0c64a9ff558ae7306ecf
+      internalID: -633795568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 4126
+        width: 738
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370d95de85691024db45ac95b90b3b6d
+      internalID: 1192885373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_8
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 4126
+        width: 736
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5050c1b106b8c4caf14f79e6fd564e
+      internalID: -1790796459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_9
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 4126
+        width: 736
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c1a277f14f3224e9d7c6d1affab43c
+      internalID: 1615650027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_10
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 4126
+        width: 738
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c97de20a11f7dd44bb94ae535989a9a
+      internalID: 1130532413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_11
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 4126
+        width: 736
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b7d45dc4156b64ba8a36da33747359
+      internalID: -1786881895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3538
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454dd44b81cf6164993e913f4a25ea3c
+      internalID: -512619627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_13
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 3538
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2dff009460acb44b7359188949a7e2
+      internalID: 1218875978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_14
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 3538
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785b64499b190a84fb9e8f5a68167f26
+      internalID: -1591976953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_15
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 3538
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fba0b7f3d60f954fa35c2ddcc780e13
+      internalID: -100472148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_16
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 3538
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb478197a22ce3e4c875acf881627fb4
+      internalID: 309610145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_17
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 3538
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7da6a0f6477ae4fb59050bc5071c7a
+      internalID: -1125770447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2947
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21d1e463d1070049852d6a058961234
+      internalID: 1447372960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_19
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2947
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c02b9117008145b552421e0f70e14
+      internalID: 2108827659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_20
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2947
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd1143f0375cd4589e3eff46107bba
+      internalID: -852457566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_21
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 2947
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6549242019c0c741a628054b8f27ab7
+      internalID: -1440456536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_22
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 2947
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db3c9ca83ca2b47aa0d759c4c7fb2c
+      internalID: -2145328389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_23
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 2947
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f03512a235ea4ead3cf2d852577c9
+      internalID: 718519683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2358
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d490cfe3d1e7378408ca645bb5f9de35
+      internalID: -935721137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_25
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2358
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ddb2b9f94eac54f8170881eb8a6130
+      internalID: 1592663904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_26
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2358
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800d8173a2488ed4f86f2b2d6501e973
+      internalID: 1554350599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_27
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 2358
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f954964bace86224190b1bb055b137be
+      internalID: -1184537647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_28
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 2358
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9920b8924d93e46aa37085379798e1
+      internalID: -23649748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_29
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 2358
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2671b5e61fdf3b4081dd624d1bbce23
+      internalID: -85606486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1767
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08abf53f8daa93d469a4f691903f52b0
+      internalID: 550976031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_31
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1767
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959e01f560f48184fb4059f1422e1230
+      internalID: -320809188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_32
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1767
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f4aff1ad4cf51468f3bdd63e6879ae
+      internalID: -1441436526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_33
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 1767
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab725d218473440925469057559aa8
+      internalID: -360133066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_34
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1767
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7500803da2c4145a0f816f1f4ee616
+      internalID: -970569315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_35
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 1767
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c68304f08c5de4ca962e678be08047
+      internalID: -968008700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1176
+        width: 736
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7da04562a455142b46a2119b0fd056
+      internalID: 1021717047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_37
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1176
+        width: 736
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19087cfe1e2e703498855088e711d02a
+      internalID: 859709503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_38
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1176
+        width: 736
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00970d841c655f34d9a7a334ea2b768d
+      internalID: -664082370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_39
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 1176
+        width: 736
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b53e25553befb8488d5a5730653184f
+      internalID: 1577416763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_40
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1176
+        width: 736
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab10bd44a0f986344a937035ef7c225b
+      internalID: -1932248206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_41
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 1176
+        width: 736
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62983c4349107a945b5f02b8bc27aaaf
+      internalID: 790269328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 587
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33ab296030839042b137eb63afd35fd
+      internalID: -540852392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_43
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 587
+        width: 738
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9511afb820bb1964db105acfa3253274
+      internalID: -432719084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_44
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 587
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45fa081a769458458f925dfc111ca45
+      internalID: -2068032653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_45
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 587
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e2a2405c16f3743914840d05430e8a
+      internalID: 1757503015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_46
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 587
+        width: 738
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a408c67105b0459bf84db531b27b7
+      internalID: -1037042201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_47
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 587
+        width: 736
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53998e31b8eff894696d7026242a44b0
+      internalID: -1075508522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brainGIF_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 736
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8b9d3695128cb439a503fa8782b53d
+      internalID: 1609249181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 952531e554e80cc4d8633170357291e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      brainGIF_0: -400848654
+      brainGIF_1: 439318720
+      brainGIF_10: 1130532413
+      brainGIF_11: -1786881895
+      brainGIF_12: -512619627
+      brainGIF_13: 1218875978
+      brainGIF_14: -1591976953
+      brainGIF_15: -100472148
+      brainGIF_16: 309610145
+      brainGIF_17: -1125770447
+      brainGIF_18: 1447372960
+      brainGIF_19: 2108827659
+      brainGIF_2: -473383224
+      brainGIF_20: -852457566
+      brainGIF_21: -1440456536
+      brainGIF_22: -2145328389
+      brainGIF_23: 718519683
+      brainGIF_24: -935721137
+      brainGIF_25: 1592663904
+      brainGIF_26: 1554350599
+      brainGIF_27: -1184537647
+      brainGIF_28: -23649748
+      brainGIF_29: -85606486
+      brainGIF_3: 1103921667
+      brainGIF_30: 550976031
+      brainGIF_31: -320809188
+      brainGIF_32: -1441436526
+      brainGIF_33: -360133066
+      brainGIF_34: -970569315
+      brainGIF_35: -968008700
+      brainGIF_36: 1021717047
+      brainGIF_37: 859709503
+      brainGIF_38: -664082370
+      brainGIF_39: 1577416763
+      brainGIF_4: -418673447
+      brainGIF_40: -1932248206
+      brainGIF_41: 790269328
+      brainGIF_42: -540852392
+      brainGIF_43: -432719084
+      brainGIF_44: -2068032653
+      brainGIF_45: 1757503015
+      brainGIF_46: -1037042201
+      brainGIF_47: -1075508522
+      brainGIF_48: 1609249181
+      brainGIF_5: -1216485667
+      brainGIF_6: -633795568
+      brainGIF_7: 1192885373
+      brainGIF_8: -1790796459
+      brainGIF_9: 1615650027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
