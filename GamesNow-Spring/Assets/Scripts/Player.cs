@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public FieldOfView fieldOfView;
     public SanityBar sanityBar;
     public PostProcessVolume postProcessVolume;
+    private int sanityIncreaseValue = 2000;
 
     public bool seenEnemy = false;
 
@@ -62,6 +63,21 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("Death");
         }
+
+        if (Interactable.hasPickedUpItem)
+        {
+            currentSanity = currentSanity - sanityIncreaseValue;
+            Interactable.hasPickedUpItem = false;
+            sanityBar.SetSanity(currentSanity);
+
+            if (currentSanity > maxSanity)
+            {
+                currentSanity = maxSanity;
+                sanityBar.SetSanity(currentSanity);
+            }
+        }
+
+
     }
 
     //void TakeSanity(int damage)

@@ -12283,7 +12283,7 @@ MonoBehaviour:
   currentSanity: 0
   fieldOfView: {fileID: 0}
   sanityBar: {fileID: 1763180743}
-  postProcessVolume: {fileID: 934516147}
+  postProcessVolume: {fileID: 0}
   seenEnemy: 0
 --- !u!114 &1800196834
 MonoBehaviour:
