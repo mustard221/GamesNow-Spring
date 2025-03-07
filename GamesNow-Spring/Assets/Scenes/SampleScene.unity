@@ -5417,13 +5417,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714155317}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7242822, z: -0, w: 0.6895037}
-  m_LocalPosition: {x: -6.5, y: 2.2, z: 143.2}
+  m_LocalRotation: {x: -0, y: -0.26016253, z: -0, w: 0.96556485}
+  m_LocalPosition: {x: 26.3, y: 2.2, z: 131.4}
   m_LocalScale: {x: 0.31057, y: 0.31057, z: 0.31057}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -92.818, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -30.159, z: 0}
 --- !u!212 &714155322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11805,6 +11805,7 @@ MonoBehaviour:
   currentSanity: 0
   fieldOfView: {fileID: 0}
   sanityBar: {fileID: 1763180743}
+  postProcessVolume: {fileID: 0}
   seenEnemy: 0
 --- !u!114 &1800196834
 MonoBehaviour:
