@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -38,7 +39,7 @@ public class Player : MonoBehaviour
 
         if (currentSanity > 10000)
         {
-
+            SceneManager.LoadScene("Death");
         }
     }
 
