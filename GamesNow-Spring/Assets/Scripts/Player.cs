@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Rendering.PostProcessing;
 
 public class Player : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
 
     public FieldOfView fieldOfView;
     public SanityBar sanityBar;
+    public PostProcessVolume postProcessVolume;
 
     public bool seenEnemy = false;
 
@@ -20,6 +22,11 @@ public class Player : MonoBehaviour
     {
         currentSanity = 0;
         sanityBar.SetMaxSanity(maxSanity);
+
+        if (postProcessVolume != null)
+        {
+            postProcessVolume.enabled = false;
+        }
 
     }
 
@@ -35,9 +42,23 @@ public class Player : MonoBehaviour
         {
             currentSanity += 1;
             sanityBar.SetSanity(currentSanity);
+
+            if (postProcessVolume != null)
+            {
+                bool enablePostProcessing = currentSanity <= maxSanity / 2;
+                postProcessVolume.enabled = enablePostProcessing;
+
+                Debug.Log($"Sanity: { currentSanity}, Post-processing enabled:) {enablePostProcessing}");
+            }
         }
 
-        if (currentSanity > 10000)
+        if (currentSanity > maxSanity / 2 && postProcessVolume != null)
+        {
+            postProcessVolume.enabled = false;
+            Debug.Log($"Sanity: {currentSanity}, Post-processing turned off.");
+        }
+
+        if (currentSanity > maxSanity)
         {
             SceneManager.LoadScene("Death");
         }
