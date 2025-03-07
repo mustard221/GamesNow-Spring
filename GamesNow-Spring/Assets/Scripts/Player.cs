@@ -70,9 +70,9 @@ public class Player : MonoBehaviour
             Interactable.hasPickedUpItem = false;
             sanityBar.SetSanity(currentSanity);
 
-            if (currentSanity > maxSanity)
+            if (currentSanity < 0)
             {
-                currentSanity = maxSanity;
+                currentSanity = 0;
                 sanityBar.SetSanity(currentSanity);
             }
         }
