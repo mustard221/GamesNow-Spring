@@ -48,14 +48,14 @@ public class Player : MonoBehaviour
                 bool enablePostProcessing = currentSanity <= maxSanity / 2;
                 postProcessVolume.enabled = enablePostProcessing;
 
-                Debug.Log($"Sanity: { currentSanity}, Post-processing enabled:) {enablePostProcessing}");
+                //Debug.Log($"Sanity: { currentSanity}, Post-processing enabled:) {enablePostProcessing}");
             }
         }
 
         if (currentSanity > maxSanity / 2 && postProcessVolume != null)
         {
             postProcessVolume.enabled = false;
-            Debug.Log($"Sanity: {currentSanity}, Post-processing turned off.");
+            //Debug.Log($"Sanity: {currentSanity}, Post-processing turned off.");
         }
 
         if (currentSanity > maxSanity)
