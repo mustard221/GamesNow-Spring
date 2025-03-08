@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
+    public AudioSource walkingSound, sprintSound;
+
     public float speed = 12f; // Walking speed
     public float sprintSpeed = 18f; // Running speed
     public float gravity = -9.81f;
@@ -36,6 +38,27 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask); // Check if its on ground
+
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            walkingSound.enabled = true;
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                walkingSound.enabled = false;
+                sprintSound.enabled = true;
+            }
+            else
+            {
+                walkingSound.enabled = true;
+                sprintSound.enabled = false;
+            }
+        }
+        else
+        {
+            walkingSound.enabled = false;
+            sprintSound.enabled = false;
+        }
+
 
         if (!isGrounded)
         {
