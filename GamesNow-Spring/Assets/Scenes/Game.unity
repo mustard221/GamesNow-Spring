@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.39954886, g: 0.41853628, b: 0.41679192, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13485,13 +13485,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.3719207, y: -0.7715359, z: -0.20070179, w: 0.4755272}
   m_LocalPosition: {x: 0, y: 3, z: 166}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.523, y: -117.881, z: -49.953}
 --- !u!1 &707608038
 GameObject:
   m_ObjectHideFlags: 0
@@ -13608,6 +13608,7 @@ GameObject:
   - component: {fileID: 714155321}
   - component: {fileID: 714155318}
   - component: {fileID: 714155322}
+  - component: {fileID: 714155323}
   m_Layer: 8
   m_Name: ScaryEnemy
   m_TagString: Enemy
@@ -13645,8 +13646,8 @@ Transform:
   m_GameObject: {fileID: 714155317}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.26016253, z: -0, w: 0.96556485}
-  m_LocalPosition: {x: 17.68, y: 2.2, z: 133.07}
-  m_LocalScale: {x: 0.31057, y: 0.31057, z: 0.31057}
+  m_LocalPosition: {x: 17.68, y: 1.59, z: 133.07}
+  m_LocalScale: {x: 0.2435419, y: 0.2435419, z: 0.2435419}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -13703,6 +13704,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &714155323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714155317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f895a07fd62c843a652aad09e2dcb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1800196831}
 --- !u!1001 &714266288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29360,8 +29374,8 @@ Transform:
   m_GameObject: {fileID: 1619262948}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.6365, y: 0.84, z: 23.9347}
-  m_LocalScale: {x: 1.062935, y: 0.6106748, z: 13.601782}
+  m_LocalPosition: {x: -0.6365, y: 0.84, z: 23.9548}
+  m_LocalScale: {x: 1.0359579, y: 0.6106748, z: 13.601782}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 686262223}
