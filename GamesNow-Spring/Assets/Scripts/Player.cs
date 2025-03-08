@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
 
         if (currentSanity > maxSanity)
         {
-            SceneManager.LoadScene("Death");
+            SceneManager.LoadSceneAsync("Death");
         }
 
         if (Interactable.hasPickedUpItem)
