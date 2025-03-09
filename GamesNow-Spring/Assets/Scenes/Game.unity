@@ -4278,7 +4278,7 @@ GameObject:
   - component: {fileID: 84086288}
   - component: {fileID: 84086291}
   m_Layer: 0
-  m_Name: Bully Encounter One
+  m_Name: TeacherTwo
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4379,10 +4379,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 84086285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b5c977787538184db76033ee06b2ca2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e3f9fc22cbd1644b834ddb31a1a90a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
+  message: Interact
   onInteraction:
     m_PersistentCalls:
       m_Calls:
@@ -24797,9 +24797,9 @@ GameObject:
   - component: {fileID: 570240128}
   - component: {fileID: 570240127}
   - component: {fileID: 570240126}
-  - component: {fileID: 570240125}
+  - component: {fileID: 570240129}
   m_Layer: 0
-  m_Name: Bully Encounter One
+  m_Name: BullyTwo
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24820,34 +24820,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 341739720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &570240125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570240123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b5c977787538184db76033ee06b2ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Interact
-  onInteraction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 822026935}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!65 &570240126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24919,6 +24891,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570240123}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &570240129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570240123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3f9fc22cbd1644b834ddb31a1a90a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Interact
+  onInteraction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 822026935}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &573571414
 GameObject:
   m_ObjectHideFlags: 0
@@ -41509,6 +41509,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194231}
+  - component: {fileID: 963194232}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -41664,6 +41665,20 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &963194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9076b7fd1c5799d48b2074cdd29667ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractSource: {fileID: 1800196831}
+  InteractRange: 4
 --- !u!1 &967502338
 GameObject:
   m_ObjectHideFlags: 0
@@ -72997,7 +73012,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1753734580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b5c977787538184db76033ee06b2ca2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e3f9fc22cbd1644b834ddb31a1a90a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   message: Interact
@@ -85863,9 +85878,9 @@ GameObject:
   - component: {fileID: 2091244408}
   - component: {fileID: 2091244407}
   - component: {fileID: 2091244406}
-  - component: {fileID: 2091244405}
+  - component: {fileID: 2091244409}
   m_Layer: 0
-  m_Name: Bully Encounter One
+  m_Name: FriendOne
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85886,34 +85901,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1578128513}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2091244405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091244403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b5c977787538184db76033ee06b2ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Interact
-  onInteraction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1922984583}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!65 &2091244406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85985,6 +85972,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091244403}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2091244409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091244403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3f9fc22cbd1644b834ddb31a1a90a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Interact
+  onInteraction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1922984583}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1001 &2092703135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86069,9 +86084,9 @@ GameObject:
   - component: {fileID: 2095359796}
   - component: {fileID: 2095359795}
   - component: {fileID: 2095359794}
-  - component: {fileID: 2095359793}
+  - component: {fileID: 2095359797}
   m_Layer: 0
-  m_Name: Bully Encounter One
+  m_Name: FriendTwo
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86092,34 +86107,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 758908328}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2095359793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095359791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b5c977787538184db76033ee06b2ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Interact
-  onInteraction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 213830905}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!65 &2095359794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86191,6 +86178,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095359791}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2095359797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095359791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3f9fc22cbd1644b834ddb31a1a90a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Interact
+  onInteraction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 213830905}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &2095905565
 GameObject:
   m_ObjectHideFlags: 0
@@ -86203,9 +86218,9 @@ GameObject:
   - component: {fileID: 2095905570}
   - component: {fileID: 2095905569}
   - component: {fileID: 2095905568}
-  - component: {fileID: 2095905567}
+  - component: {fileID: 2095905571}
   m_Layer: 0
-  m_Name: Bully Encounter One
+  m_Name: TeacherOne
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86226,34 +86241,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 306895263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2095905567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095905565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b5c977787538184db76033ee06b2ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Interact
-  onInteraction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 861247176}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!65 &2095905568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86325,6 +86312,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095905565}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2095905571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095905565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3f9fc22cbd1644b834ddb31a1a90a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Interact
+  onInteraction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 861247176}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &2101286122
 GameObject:
   m_ObjectHideFlags: 0

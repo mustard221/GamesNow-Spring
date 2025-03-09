@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class interaction : MonoBehaviour
+public class interaction : MonoBehaviour, Interaction
 {
     public string message; // Optional: A message to display when interacting
     public UnityEvent onInteraction;
