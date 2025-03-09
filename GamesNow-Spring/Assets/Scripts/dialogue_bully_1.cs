@@ -17,6 +17,7 @@ public class dialogue_bully_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         textComponent.text = string.Empty;
         StartDialogue();
     }
@@ -42,6 +43,7 @@ public class dialogue_bully_1 : MonoBehaviour
     {
         index = 0;
         StartCoroutine(TypeLine());
+        Cursor.lockState = CursorLockMode.None;
     }
 
     IEnumerator TypeLine()

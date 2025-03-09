@@ -41,6 +41,7 @@ public class dialogue_principal : MonoBehaviour
     {
         index = 0;
         StartCoroutine(TypeLine());
+        Cursor.lockState = CursorLockMode.None;
     }
 
     IEnumerator TypeLine()
