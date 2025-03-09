@@ -10,6 +10,8 @@ public class interaction : MonoBehaviour
     public UnityEvent onPlayerCollided;
     public UnityEvent onExit;
 
+    private bool playerInRange = false;
+
     public static bool hasPickedUpItem = false;
 
     // Called when the player interacts with the object
@@ -22,11 +24,22 @@ public class interaction : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
+    {
+        // Make sure interaction works w/ collider stuff
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        {
+            Interact(); 
+        }
+    }
+
+    // Enable interaction message
+    private void OnTriggerEnter(Collider other) 
     {
         if (other.CompareTag("Player"))
         {
-            onPlayerCollided.Invoke(); // Collider stuff for interaction text
+            playerInRange = true;
+            onPlayerCollided.Invoke(); 
         }
     }
 
@@ -34,11 +47,8 @@ public class interaction : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            onExit.Invoke(); 
+            playerInRange = false;
+            onExit.Invoke();
         }
     }
 }
-
-
-
-
