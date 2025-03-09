@@ -1,37 +1,25 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class InteractionScript : MonoBehaviour
+public class interaction : MonoBehaviour
 {
-    public UnityEvent enteredTrigger, exitedTrigger, interacted;
+    public string message; // Optional: A message to display when interacting
+    public UnityEvent onInteraction;
 
-    private bool insideTrigger;
+    public static bool hasPickedUpItem = false;
 
-    // Update is called once per frame
-    void Update()
+    // Called when the player interacts with the object
+    public void Interact()
     {
-        if (insideTrigger && Input.GetKeyDown(KeyCode.E))
-        {
-            interacted?.Invoke();
-        }
-    }
+        Debug.Log("Interacted with: " + gameObject.name); // Log interaction
+        onInteraction.Invoke(); // Trigger custom interaction logic
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            enteredTrigger.Invoke();
-            insideTrigger = true;
-        }
-    }
+       
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            exitedTrigger.Invoke();
-            insideTrigger = false;
-        }
+        // Optional: Destroy the object after interaction
+        Destroy(gameObject);
+        
     }
 }
